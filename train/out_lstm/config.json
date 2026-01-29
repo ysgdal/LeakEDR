@@ -1,0 +1,8 @@
+{
+  "model_type": "lstm",
+  "vocab_size": 92,
+  "embedding_dim": 512,
+  "hidden_dim": 512,
+  "num_layers": 2,
+  "dropout": 0.2
+}

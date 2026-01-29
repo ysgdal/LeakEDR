@@ -1,0 +1,157 @@
+{
+  "version": "1.0",
+  "truncation": null,
+  "padding": null,
+  "added_tokens": [],
+  "normalizer": null,
+  "pre_tokenizer": {
+    "type": "Whitespace"
+  },
+  "post_processor": {
+    "type": "TemplateProcessing",
+    "single": [
+      {
+        "Sequence": {
+          "id": "A",
+          "type_id": 0
+        }
+      }
+    ],
+    "pair": [
+      {
+        "Sequence": {
+          "id": "A",
+          "type_id": 0
+        }
+      },
+      {
+        "Sequence": {
+          "id": "B",
+          "type_id": 0
+        }
+      }
+    ],
+    "special_tokens": {
+      "<BOS>": {
+        "id": "<BOS>",
+        "ids": [
+          2
+        ],
+        "tokens": [
+          "<BOS>"
+        ]
+      },
+      "<EOS>": {
+        "id": "<EOS>",
+        "ids": [
+          94
+        ],
+        "tokens": [
+          "<EOS>"
+        ]
+      }
+    }
+  },
+  "decoder": null,
+  "model": {
+    "type": "WordLevel",
+    "vocab": {
+      "<PAD>": 0,
+      "<UNK>": 1,
+      "<BOS>": 2,
+      "<PROC:csfalconservice.exe>": 3,
+      "NtAlertThreadByThreadId": 4,
+      "NtDeviceIoControlFile": 5,
+      "NtWaitForAlertByThreadId": 6,
+      "NtWaitForSingleObject": 7,
+      "NtSetTimer2": 8,
+      "NtAssociateWaitCompletionPacket": 9,
+      "NtWaitForWorkViaWorkerFactory": 10,
+      "NtSetEvent": 11,
+      "NtWaitForMultipleObjects": 12,
+      "NtDelayExecution": 13,
+      "NtRemoveIoCompletion": 14,
+      "<PROC:cssystemtray_7.15.18514.0.exe>": 15,
+      "NtCreateKey": 16,
+      "NtOpenKey": 17,
+      "NtClose": 18,
+      "NtQueryValueKey": 19,
+      "NtQuerySystemInformation": 20,
+      "NtQueryInformationProcess": 21,
+      "NtQueryLicenseValue": 22,
+      "NtQueryPerformanceCounter": 23,
+      "NtReleaseWorkerFactoryWorker": 24,
+      "NtQueryInformationThread": 25,
+      "NtProtectVirtualMemory": 26,
+      "NtTerminateThread": 27,
+      "NtFreeVirtualMemory": 28,
+      "NtQueryWnfStateData": 29,
+      "NtWriteFile": 30,
+      "<PROC:csfalconcontainer.exe>": 31,
+      "NtReadFile": 32,
+      "NtAllocateVirtualMemory": 33,
+      "NtSetInformationProcess": 34,
+      "NtTestAlert": 35,
+      "NtContinue": 36,
+      "NtContinueEx": 37,
+      "NtWorkerFactoryWorkerReady": 38,
+      "NtCreateUserProcess": 39,
+      "NtDuplicateToken": 40,
+      "NtQueryInformationToken": 41,
+      "NtFsControlFile": 42,
+      "NtOpenProcess": 43,
+      "NtOpenProcessTokenEx": 44,
+      "NtQuerySecurityAttributesToken": 45,
+      "NtQueryVolumeInformationFile": 46,
+      "NtCreateWnfStateName": 47,
+      "NtOpenProcessToken": 48,
+      "NtApphelpCacheControl": 49,
+      "NtQueryInformationByName": 50,
+      "NtEnumerateValueKey": 51,
+      "NtQueryInformationFile": 52,
+      "NtOpenFile": 53,
+      "NtAlpcSendWaitReceivePort": 54,
+      "NtWriteVirtualMemory": 55,
+      "NtDuplicateObject": 56,
+      "NtTerminateProcess": 57,
+      "NtQueryKey": 58,
+      "NtSetValueKey": 59,
+      "NtCreateFile": 60,
+      "NtQueryDirectoryFile": 61,
+      "NtQueryDirectoryFileEx": 62,
+      "NtOpenThreadToken": 63,
+      "NtOpenThreadTokenEx": 64,
+      "NtQueryAttributesFile": 65,
+      "NtCreateSection": 66,
+      "NtMapViewOfSection": 67,
+      "NtQueryVirtualMemory": 68,
+      "NtCreateThreadEx": 69,
+      "NtResumeThread": 70,
+      "NtTraceControl": 71,
+      "NtOpenSymbolicLinkObject": 72,
+      "NtCreateEvent": 73,
+      "NtSetInformationThread": 74,
+      "NtAlpcCreateSecurityContext": 75,
+      "NtAlpcConnectPort": 76,
+      "NtAlpcQueryInformation": 77,
+      "NtAlpcDeleteSecurityContext": 78,
+      "NtSetInformationFile": 79,
+      "NtCreateNamedPipeFile": 80,
+      "NtCreateMailslotFile": 81,
+      "NtQuerySymbolicLinkObject": 82,
+      "NtRemoveIoCompletionEx": 83,
+      "NtSetInformationWorkerFactory": 84,
+      "NtSetInformationObject": 85,
+      "NtClearEvent": 86,
+      "NtCreateWaitCompletionPacket": 87,
+      "NtCancelWaitCompletionPacket": 88,
+      "NtAlpcQueryInformationMessage": 89,
+      "NtUnmapViewOfSection": 90,
+      "NtUnmapViewOfSectionEx": 91,
+      "NtDeleteWnfStateName": 92,
+      "NtCallbackReturn": 93,
+      "<EOS>": 94
+    },
+    "unk_token": "<UNK>"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "model_type": "tcn",
+  "vocab_size": 92,
+  "embedding_dim": 512,
+  "channels": [
+    512,
+    512,
+    512,
+    512
+  ],
+  "kernel_size": 3,
+  "dropout": 0.2
+}
